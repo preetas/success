@@ -1,6 +1,7 @@
 package com.howtodoinjava.app.controller;
 
 import java.util.Map;
+import org.springframework.ui.Model;
 import com.howtodoinjava.app.controller.web.View;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

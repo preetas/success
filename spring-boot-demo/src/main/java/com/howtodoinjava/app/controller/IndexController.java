@@ -20,7 +20,7 @@ public class IndexController {
 		return "next";
 	}
 public static void main(String[] args) {
-        SpringApplication.run(IndexController.class, args);
+        SpringApplication.run(IndexController.class, args);//run
     }
 
 }

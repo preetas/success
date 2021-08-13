@@ -1,7 +1,7 @@
 package com.howtodoinjava.app.controller;
 
 import java.util.Map;
-import com.howtodoinjava.app.controller.web.View
+import com.howtodoinjava.app.controller.web.View;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.boot.SpringApplication;

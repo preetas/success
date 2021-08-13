@@ -4,7 +4,7 @@
 	<groupId>com.howtodoinjava</groupId>
 	<artifactId>spring-boot-demo</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<name>spring-boot-demo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<parent>

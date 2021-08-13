@@ -4,7 +4,7 @@ import java.util.Map;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+import org.springframework.boot.SpringApplication
 @Controller
 public class IndexController {
 
@@ -19,5 +19,8 @@ public class IndexController {
 		model.put("message", "You are in new page !!");
 		return "next";
 	}
+public static void main(String[] args) {
+        SpringApplication.run(IndexController.class, args);
+    }
 
 }

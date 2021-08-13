@@ -17,7 +17,7 @@ public enum View {
     private final String path;
 
     private static class Constants {
-        private static final String ROOT = "view/";
+        private static final String ROOT = "WEB-INF/view/";
 
         private Constants() {
         }

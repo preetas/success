@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public enum View {
-    HOME(Constants.ROOT + "index");
+    HOME(Constants.ROOT + "index.jsp");
 
     private final String path;
 

@@ -1,14 +1,13 @@
+<%@ include file="../partials/taglibs.jsp" %>
 <!DOCTYPE html>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<html lang="en">
+<html>
+<head>
+    <jsp:include page="../partials/head.jsp"/>
+    <title>Home</title>
+</head>
 <body>
-	<div>
-		<div>
-			<h1>Spring Boot JSP Example</h1>
-			<h2>Hello ${message}</h2>
-			
-			Click on this <strong><a href="next">link</a></strong> to visit another page.
-		</div>
-	</div>
+<div class="container">
+    <h1>Welcome in ${message}</h1>
+</div>
 </body>
 </html>

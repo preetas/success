@@ -8,6 +8,8 @@
     <artifactId>spring-boot-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+<name>spring-boot-demo Maven Webapp</name>
+	<url>http://maven.apache.org</url>
     <description>This is spring boot jsp example</description>
     <!-- Inherit defaults from Spring Boot -->
     <parent>
@@ -51,6 +53,11 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-devtools</artifactId>
 </dependency>
+<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
  </dependencies>
     <build>
         <plugins>

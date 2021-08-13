@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
-	@RequestMapping("/")
+	@RequestMapping("/Index")
 	public String home(Map<String, Object> model) {
 		model.put("message", "HowToDoInJava Reader !!");
 		return "index";
